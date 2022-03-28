@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculador JS + HTML + CSS</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th id = "tittle"> Calculadora JS + HTML + CSS</th>
+            </tr>
+            <tr id = "calculadora">
+                <td> Valor 1 <input type = "text" name ="valor1" id = "val1"></td>
+                <td>
+
+                    <select name = "sinal" id = "sinal">
+                        <option value = "+"> + </option>
+                        <option value = "-"> - </option>
+                        <option value = "*"> * </option>
+                        <option value = "/"> / </option>
+                    </select>
+
+                </td>
+                <td> Valor 2 <input type = "text" name = "valor2" id = "val2"></td>
+                <td><input type = "button" value = " = " onclick = "calculator();" name = "" id = "button"></input></td>
+                <td><input type = "text" name = "resultado" id = "resultado"></input></td>
+            </tr>
+        </table>
+    </form>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Orbitron&display=swap');
+        </style>
+    <script src = "calculator.js"></script>
+</body>
+</html>
